@@ -1,5 +1,5 @@
 {% set name = "py2puml" %}
-{% set version = "0.9.0" %}
+{% set version = "0.9.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/py2puml-{{ version }}.tar.gz
-  sha256: 007f0ef0e45b8c020c72333d72ec7441999c3adee957223bd191529b356bbcb9
+  sha256: 3aca8f696c017905053421463fde0e62fef6c3a9388a735d53575939b0ca30be
 
 build:
   noarch: python
